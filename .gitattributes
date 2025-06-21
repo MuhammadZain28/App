@@ -1,0 +1,8 @@
+# Treat all text files normally
+* text=auto
+
+# Prevent Git from altering binary deployment files
+*.manifest binary
+*.dll binary
+*.exe binary
+*.application binary
